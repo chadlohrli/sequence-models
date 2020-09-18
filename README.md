@@ -5,6 +5,10 @@ Implements three common sequential models in pure **numpy** and optionally sampl
 
 The models include: **Recurrent Neural Network(RNN)**, **Long Short Term Memory(LSTM)**, and **Gated Recurrent Unit(GRU)**
 
+### Installation:
+The only two dependencies are **numpy** and **matplotlib** to plot the loss during training.   
+Running `./install.sh` will create a virtual python3 environment `.env` and install these.
+
 ### Usage:
 ```
 python sequence-models.py -h
